@@ -1,4 +1,4 @@
-# Shamil Magomedov
+# Magomed Magomedov
 ## Web Developer
 
 **На борту сборки:**

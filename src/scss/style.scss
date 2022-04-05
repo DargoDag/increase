@@ -1,0 +1,12 @@
+@use "sass:math";
+
+// libs
+@import "libs/normalize";
+
+// base
+@import "base/layout";
+
+// blocks
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/footer";

@@ -1,0 +1,82 @@
+.footer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  margin-top: 24px;
+  padding: 24px 0 24px 0;
+
+  border-top: 1px solid #000;
+
+  @media screen and (max-width: $tablet) {
+    grid-template-columns: 1fr;
+  }
+
+  &__left {
+    padding: 18px 24px 18px 24px;
+  
+    width: 100%;
+    
+    background-color: #777777;
+    color: #dcdcdc;
+
+    & ul {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      height: 154px;
+      
+      @media screen and (max-width: $tablet) {
+        align-items: center;
+      }
+    }
+
+    & li {
+      max-width: 100px;
+      width: 100%;
+    }
+  }
+
+  &__center {
+    padding: 18px 24px 18px 24px;
+
+    width: 100%;
+
+    background-color: #777777;
+    color: #dcdcdc;
+
+    & ul {
+      list-style: square;
+
+      @media screen and (max-width: $tablet) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  &__contacts {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+
+    & .contacts__top {
+      margin-bottom: 28px;
+
+      min-height: 74px;
+      height: 100%;
+
+      background-color: #777777;
+    }
+
+    & .contacts__bottom {
+      min-height: 74px;
+      height: 100%;
+
+      background-color: #777777;
+    }
+  }
+}
